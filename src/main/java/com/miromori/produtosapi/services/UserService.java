@@ -34,7 +34,7 @@ public class UserService {
     }
 
     public Usuario save(Usuario usuario) throws Exception {
-        findById(usuario.getId())
+        findById(usuario.getId());
         return usuarioRepository.save(usuario);
     }
 

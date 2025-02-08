@@ -31,3 +31,13 @@ build/
 
 ### VS Code ###
 .vscode/
+# Ignora TUDO (arquivos e pastas)
+/*
+
+# Exceto a pasta src/ e o arquivo pom.xml
+!/src/
+!/pom.xml
+
+# Ignora tudo dentro de .mvn/, mas mantém a pasta (se necessário)
+/.mvn/*
+!/.mvn/wrapper/
